@@ -15,6 +15,7 @@ public class MagneticSpaceGroup {
     private Integer id;
     private String type;
     private String groupName;
+    private String mpgName;
     private BravaisLattice bravaisLattice;
     private List<MagneticSpaceGroupOperation> operations;
     private List<AIBasis> aiBases;
@@ -41,6 +42,7 @@ public class MagneticSpaceGroup {
         private String name;
         private List<List<String>> conventionalBasicVectors;
         private List<List<String>> primitiveBasicVectors;
+        private String info;
     }
 }
 
